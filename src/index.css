@@ -1,0 +1,58 @@
+body {
+  background-color: #edeef1;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+.add-button {
+  border-radius: 0px;
+  color: #006e78;
+  border: none;
+  height: 45px;
+  width: 200px;
+}
+
+.change-name-btn {
+  border-radius: 0px;
+  color: #ffffff;
+  background-color: #006e78;
+  border: none;
+  box-shadow: 2px 2px 3px #cdcdcd;
+  height: 45px;
+  width: 200px;
+}
+
+.fa-plus {
+  font-size: 25px;
+  color: #006e78;
+  margin-right: 5px;
+}
+
+.sub-title {
+  color: #006e78;
+  font-weight: 400;
+}
+
+.sub-title-container {
+  margin-left: 15px;
+}
+
+.add-lock-btn {
+  color:#006e78;
+  font-size: 16px;
+}
+
+.add-lock-btn:hover {
+  color:#006e78;
+  background-color: white;
+}
+
+.no-deco:hover{
+  text-decoration: none;
+}
+
+.no-hover-effect:hover {
+  text-decoration: none;
+  cursor: default;
+}

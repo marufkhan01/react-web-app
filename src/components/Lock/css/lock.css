@@ -1,0 +1,133 @@
+.lock-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.grid-center {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.lock-flex-item-1 {
+  background-color: #fff;
+  padding: 5px;
+  list-style-type: none !important;
+  color: #53585f;
+  box-shadow: 2px 2px 3px #cdcdcd;
+  flex: 6;
+  display: inline-flex;
+}
+
+.lock-type {
+  margin-left: 0px !important;
+  color: grey;
+}
+
+.lock-flex-item-2 {
+  background-color: #fff;
+  padding: 5px;
+  list-style-type: none !important;
+  color: #53585f;
+  flex: 1.1;
+}
+
+@media screen and (max-width: 499px) {
+  .lock-flex-item-2 {
+    flex: 1 0 300px;
+  }
+}
+
+.lock-list {
+  padding: 0;
+  width: 100% !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 400px !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: none;
+  border-radius: 0px;
+  outline: none;
+  text-align: center;
+}
+
+.sub-title-text-container {
+  margin: 15px;
+  font-weight: 300;
+  color: #006e78;
+}
+
+.settings-sub-title {
+  color: #006e78;
+}
+
+.title-text-container {
+  /* margin: 15px; */
+  font-weight: 500;
+}
+
+.button-tobe-link {
+  background: none !important;
+  margin: 15px;
+  font-weight: 300 !important;
+  color: #006e78;
+  border: none;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+
+.button-tobe-link:hover {
+  text-decoration: underline;
+  color: #006e78;
+}
+
+.settings-change-input {
+  height: 55px;
+  width: 200px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: none;
+  outline: none;
+  border-radius: 0px;
+}
+
+.settings-input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.save-settings-btn {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-color: #006e78;
+  color: #fff;
+  border-radius: 0px;
+  height: 55px;
+  width: 140px;
+  border: none;
+}
+
+.save-settings-btn:hover {
+  background-color: #006e78;
+  color: black;
+}
+
+.lock-label {
+  height:30%;
+  background-color: white;
+  width:50%;
+ padding:5px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.lock-label-sm {
+  height:20%;
+  width:25%;
+}
